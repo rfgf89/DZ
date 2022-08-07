@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class EasyThree
 {
-    private const float aspectFuteToKilogramme = 0.453f;
+    private const float aspectPoundToKilogramme = 0.453f;
     
-    public float GetKilogramme(float fute) => fute * aspectFuteToKilogramme;
-    public float GetFute(float kilogramme) => kilogramme / aspectFuteToKilogramme;
+    public float GetKilogramme(float fute) => fute * aspectPoundToKilogramme;
+    public float GetPound(float kilogramme) => kilogramme / aspectPoundToKilogramme;
     
 }
