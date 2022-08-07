@@ -16,8 +16,8 @@ public class EasyTwo : MonoBehaviour
 {
     public void Start()
     {
-        for (int i = 0; i < 8; i++)
-            Debug.Log(GetDayWeek(i));
+       //for (int i = 1; i < 8; i++)
+         //   Debug.Log(GetDayWeek(i));
     }
 
     public DayWeek GetDayWeek(int day)
